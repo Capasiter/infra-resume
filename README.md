@@ -22,3 +22,8 @@ This repository contains production-ready Infrastructure-as-Code (IaC) to demons
 ## 🐳 Container Ingress & Routing Topology (Docker Compose)
 To demonstrate application delivery and high-availability architecture, this repository includes a multi-tier composition layout:
 * **`docker-compose.yml`**: Defines an isolated, software-defined bridge network (`proxy_ingress_tier`) hosting an Nginx reverse proxy frontend that acts as a layer-7 load balancer, securely routing traffic to isolated backend application nodes.
+
+## 🔐 Secure Remote Access Topology (Tailscale Mesh VPN)
+To eliminate exposure vectors and eliminate the need for insecure inbound public firewall openings, remote operations are managed over a cryptographically secure mesh overlay network:
+* **Subnet Routing Gateways:** Configured dedicated mesh nodes running Tailscale inside the homelab perimeter to act as isolated internal network bridges.
+* **Point-to-Point Mesh Networking:** Restricts all administrative ingress traffic (SSH, Proxmox Web UI, Portainer Dashboard) strictly to verified, authenticated nodes on the tailnet, enforcing a strict Zero-Trust access baseline.
