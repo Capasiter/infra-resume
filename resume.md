@@ -18,9 +18,13 @@ Blaine, MN | lee.austin.lab@gmail.com | https://github.com/capasiter
 
 
 
-\## Experience \& Professional Background
+## Professional Experience
 
-\* \*\*E\&T Plastics\*\* | Sales \& Technical Production
+### Warehouse Logistics & Material Processor | E&T Plastics
+* **Operations & Logistics:** Direct regional warehouse material handling operations, coordinating raw inventory workflows and precision fabrication machinery.
+* **Process Optimization:** Scaled efficiency protocols to absorb fluctuating operational costs and material pricing surges up to 20%, ensuring continuous lean operations under tight margins.
+* **Equipment Management:** Operate, maintain, and troubleshoot heavy warehouse industrial machinery, maintaining a zero-accident safety record through preventative inspection protocols.
 
-\* \*\*Fogerty Ice Arena\*\* | Facility Operations \& Ice Maintenance
-
+### Facility Maintenance & Arena Operations | Athletic Infrastructure Management
+* **Systems Maintenance:** Orchestrated precision mechanical facility maintenance, structural equipment calibrations, and ice resurfacing operations under tight event-driven timelines.
+* **Problem Resolution:** Evaluated mechanical anomalies in high-stress environments, performing immediate component-level repairs to prevent facility downtime.
