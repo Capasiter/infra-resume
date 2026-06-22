@@ -14,3 +14,7 @@ The core systems engineering competencies highlighted in this resume are activel
 * **Hypervisor:** Proxmox VE managing clustered microservices, nested virtualization sandboxes, and Unraid storage arrays.
 * **Configuration Management:** Ansible playbooks for automated bare-metal OS provisioning and declarative package state mapping.
 * **Containerization:** Redundant application workloads orchestrated via Docker and Portainer, utilizing Nginx reverse proxies for layer-7 load balancing and high-availability routing.
+
+## 💻 Automated Configuration Management (Ansible)
+This repository contains production-ready Infrastructure-as-Code (IaC) to demonstrate automated system configuration:
+* **`provision_node.yml`**: An automated Ansible playbook designed to connect to raw Debian/Ubuntu target nodes, handle repository keys, execute full system distribution upgrades, install Docker engines, and verify systemd service states.
