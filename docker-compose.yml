@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  # Ingress Layer: High-Availability Reverse Proxy Frontend
+  reverse-proxy:
+    image: nginx:latest
+    container_name: proxy_frontend
+    ports:
+      - "80:80"    # HTTP Ingress
+      - "443:443"  # HTTPS Ingress
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+    networks:
+      - ingress_network
+    restart: unless-stopped
+
+  # Application Workload Layer: Isolated Redundant Web Service Nodes
+  web-node-01:
+    image: nginx:alpine
+    container_name: app_node_01
+    volumes:
+      - ./html/node01:/usr/share/nginx/html:ro
+    networks:
+      - ingress_network
+    restart: unless-stopped
+
+  web-node-02:
+    image: nginx:alpine
+    container_name: app_node_02
+    volumes:
+      - ./html/node02:/usr/share/nginx/html:ro
+    networks:
+      - ingress_network
+    restart: unless-stopped
+
+# Network Isolation Layer: Restricting Container Interconnectivity
+networks:
+  ingress_network:
+    driver: bridge
+    name: proxy_ingress_tier
