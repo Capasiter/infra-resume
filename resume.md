@@ -1,20 +1,12 @@
-\# Lee | Infrastructure \& Systems Engineer
+# Lee | Infrastructure & Systems Engineer
+Blaine, MN | capasiter@yahoo.com | https://github.com/capasiter
 
-\[Blaine, MN] | \[LinkedIn Profile Link] | \[GitHub Profile Link]
-
-
-
-\## Technical Core Competencies
-
-\* \*\*Virtualization \& Hypervisors:\*\* Proxmox VE (Cluster Management, Nested Virtualization), Unraid
-
-\* \*\*Automation \& Infrastructure-as-Code:\*\* Ansible, Terraform
-
-\* \*\*Containers \& Orchestration:\*\* Docker, Portainer
-
-\* \*\*Operating Systems \& Environment:\*\* Linux (Ubuntu, Debian), Windows Subsystem for Linux (WSL2)
-
-\* \*\*Networking \& Security:\*\* Reverse Proxies (Nginx), Load Balancing, Target Infrastructure Hardening
+## Technical Core Competencies
+* **Virtualization & Hypervisors:** Proxmox VE (Bare-Metal, Cluster Management, Nested Virtualization), Unraid
+* **Automation & Infrastructure-as-Code:** Ansible, Terraform
+* **Containers & Orchestration:** Docker, Portainer, Ollama Local AI Integration
+* **Operating Systems & Environment:** Linux (Ubuntu, Debian), Windows Subsystem for Linux (WSL2)
+* **Networking & Security:** Reverse Proxies (Nginx), Tailscale Mesh Networking, Target Infrastructure Hardening
 
 
 
