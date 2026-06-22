@@ -18,3 +18,7 @@ The core systems engineering competencies highlighted in this resume are activel
 ## 💻 Automated Configuration Management (Ansible)
 This repository contains production-ready Infrastructure-as-Code (IaC) to demonstrate automated system configuration:
 * **`provision_node.yml`**: An automated Ansible playbook designed to connect to raw Debian/Ubuntu target nodes, handle repository keys, execute full system distribution upgrades, install Docker engines, and verify systemd service states.
+
+## 🐳 Container Ingress & Routing Topology (Docker Compose)
+To demonstrate application delivery and high-availability architecture, this repository includes a multi-tier composition layout:
+* **`docker-compose.yml`**: Defines an isolated, software-defined bridge network (`proxy_ingress_tier`) hosting an Nginx reverse proxy frontend that acts as a layer-7 load balancer, securely routing traffic to isolated backend application nodes.
