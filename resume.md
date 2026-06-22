@@ -28,3 +28,8 @@ Blaine, MN | lee.austin.lab@gmail.com | https://github.com/capasiter
 ### Facility Maintenance & Arena Operations | Athletic Infrastructure Management
 * **Systems Maintenance:** Orchestrated precision mechanical facility maintenance, structural equipment calibrations, and ice resurfacing operations under tight event-driven timelines.
 * **Problem Resolution:** Evaluated mechanical anomalies in high-stress environments, performing immediate component-level repairs to prevent facility downtime.
+
+## Professional Summary
+Detail-oriented and highly practical Systems & Electronics Technician with 18 years of freelance experience specializing in custom computer engineering, network infrastructure, and advanced hardware diagnostics. Expert in physical server assembly, precise cable management, and component-level board repairs. Continuously modernizing skills through home laboratory deployment (Proxmox hypervisors, Unraid storage arrays, containerization) to deliver high-availability infrastructure support and rapid hardware troubleshooting.
+
+
